@@ -28,7 +28,7 @@ for site in sites:
 fig, ax = plt.subplots()
 
 # hide axes\
-with PdfPages(r'C:\Users\blkmrkt\Desktop\mar-228\test.pdf') as export_pdf:
+with PdfPages('test.pdf') as export_pdf:
     fig.patch.set_visible(False)
     ax.axis('off')
     #ax.axis('tight')
